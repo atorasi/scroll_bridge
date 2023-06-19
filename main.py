@@ -22,4 +22,5 @@ if __name__ == "__main__":
         value_to_scroll = eth_balance * randint(percent_sc_from * 1_000, percent_sc_to * 1_000) / 100_000
         scroll_bridge_hash = bridge_geth(key, rpc['goerli'], value_to_scroll)
         logger.success(f'{acc_info} Отправил gETH --> SCROLL, используя Scroll Alpha')
+        logger.info(f'Сплю {newersleep_accs()} секунд, перед некст акком.')
         
