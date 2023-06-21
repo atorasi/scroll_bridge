@@ -1,7 +1,7 @@
 from random import randint
 
 from utils import logger
-from config import rpc, percent_sc_from, percent_sc_to, percent_or_from, percent_or_to, text1
+from config import rpc, percent_sc_from, percent_sc_to
 from core import balance_check, bridge_geth
 
 
